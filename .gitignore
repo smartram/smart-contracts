@@ -1,0 +1,22 @@
+# Rust and Anchor build outputs
+**/target/
+**/.anchor/
+
+# JavaScript dependencies
+**/node_modules/
+**/dist/
+
+# Local validator
+**/test-ledger/
+**/.ledger/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
